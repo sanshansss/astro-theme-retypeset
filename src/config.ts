@@ -1,5 +1,9 @@
 import type { ThemeConfig } from '@/types'
 
+const runtimeProcess = Reflect.get(globalThis, 'process') as { env?: NodeJS.ProcessEnv } | undefined
+const deploymentSiteURL = runtimeProcess?.env?.PUBLIC_SITE_URL
+const deploymentBase = runtimeProcess?.env?.PUBLIC_BASE
+
 export const themeConfig: ThemeConfig = {
   // SITE INFORMATION >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> START
   site: {
@@ -14,10 +18,10 @@ export const themeConfig: ThemeConfig = {
     // author name
     author: 'radishzz',
     // site url
-    url: 'https://retypeset.radishzz.cc',
+    url: deploymentSiteURL || 'https://retypeset.radishzz.cc',
     // base path
     // root directory for all pages and assets
-    base: '/', // e.g., '/blog', '/docs'
+    base: deploymentBase || '/', // e.g., '/blog', '/docs'
     // favicon url
     // recommended formats: svg, png or ico
     favicon: '/icons/favicon.svg', // or https://example.com/favicon.svg
