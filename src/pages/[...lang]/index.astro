@@ -2,6 +2,7 @@
 import PostList from '@/components/PostList.astro'
 import { allLocales } from '@/config'
 import { getLangFromLocale, getLangRouteParam } from '@/i18n/lang'
+import { getPostPath } from '@/i18n/path'
 import Layout from '@/layouts/Layout.astro'
 import { getPinnedPosts, getPostsByYear } from '@/utils/content'
 
@@ -14,9 +15,53 @@ export async function getStaticPaths() {
 const currentLang = getLangFromLocale(Astro.currentLocale)
 const pinnedPosts = await getPinnedPosts(currentLang)
 const postsByYear = await getPostsByYear(currentLang)
+const projectCopy = currentLang === 'zh'
+  ? {
+      heading: '精选项目',
+      title: '空间飞行器动力学教学动画',
+      details: '项目介绍',
+      repo: 'GitHub 仓库',
+    }
+  : currentLang === 'en'
+    ? {
+        heading: 'Selected Project',
+        title: 'Spacecraft Dynamics Teaching Animations',
+        details: 'Project overview',
+        repo: 'GitHub repository',
+      }
+    : null
+const projectRepo = 'https://github.com/sanshansss/spacecraft-dynamics-animations'
 ---
 
 <Layout>
+  {projectCopy && (
+    <section class="mb-7.5">
+      <div class="uno-decorative-line" />
+      <div class="flex flex-col gap-2.5 sm:flex-row sm:items-end sm:justify-between">
+        <div>
+          <p class="text-3.2 text-secondary">{projectCopy.heading}</p>
+          <h2 class="mt-0.5 text-4.2 font-medium">{projectCopy.title}</h2>
+        </div>
+        <div class="flex shrink-0 gap-4 text-3.4 font-navbar">
+          <a
+            class="highlight-hover transition-colors after:bottom-0.3em hover:c-primary"
+            href={projectRepo}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {projectCopy.repo} ↗
+          </a>
+          <a
+            class="highlight-hover transition-colors after:bottom-0.3em hover:c-primary"
+            href={getPostPath('spacecraft-dynamics-animations', currentLang)}
+          >
+            {projectCopy.details}
+          </a>
+        </div>
+      </div>
+    </section>
+  )}
+
   <!-- Pinned Posts -->
   {pinnedPosts.length > 0 && (
     <section class="mb-7.5">

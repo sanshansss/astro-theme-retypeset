@@ -16,7 +16,7 @@ export const themeConfig: ThemeConfig = {
     // use i18n title/subtitle/description from src/i18n/ui.ts instead of static ones above
     i18nTitle: true, // true | false
     // author name
-    author: 'radishzz',
+    author: 'Yue Zixin',
     // site url
     url: deploymentSiteURL || 'https://retypeset.radishzz.cc',
     // base path
@@ -171,11 +171,11 @@ export const themeConfig: ThemeConfig = {
       },
       {
         name: 'GitHub',
-        url: 'https://github.com/radishzzz/astro-theme-retypeset',
+        url: 'https://github.com/sanshansss',
       },
       {
-        name: 'Email',
-        url: 'email@radishzz.cc',
+        name: '项目',
+        url: 'https://github.com/sanshansss/spacecraft-dynamics-animations',
       },
       // {
       //   name: 'X',
