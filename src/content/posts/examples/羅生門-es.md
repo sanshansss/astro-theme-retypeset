@@ -6,6 +6,7 @@ tags:
   - Literatura Moderna
 lang: es
 abbrlink: rashomon
+draft: true
 ---
 
 ![_Here's the description of the picture](https://image.radishzz.cc/picsmaller/06.webp)
@@ -83,3 +84,4 @@ El sirviente rápidamente le quitó la ropa a la anciana y le dio una patada vio
 No hace mucho tiempo, la anciana, que parecía muerta temporalmente, luchaba por levantar su cuerpo desnudo de entre los cadáveres. Ella emitió un sonido molesto y quejumbroso y, aprovechando la luz del fuego que aún ardía, se arrastró hasta las escaleras. Y desde allí colgaba un pelo corto y blanco que se asomaba por debajo de la puerta. Afuera solo había una noche completamente oscura.
 
 Nadie sabía el paradero del general de la familia.
+

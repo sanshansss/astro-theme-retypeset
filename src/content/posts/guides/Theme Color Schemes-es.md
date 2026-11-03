@@ -6,6 +6,7 @@ tags:
 toc: false
 lang: es
 abbrlink: theme-color-schemes
+draft: true
 ---
 
 Retypeset define los esquemas de color del tema basados en el espacio de color [OKLCH](https://oklch.com/), con un esquema predeterminado de colores negro, blanco y gris que simula un estilo de impresión.
@@ -91,3 +92,4 @@ dark: {
   highlight: 'oklch(0.93 0.195089 103.2532 / 0.2)',
 },
 ```
+

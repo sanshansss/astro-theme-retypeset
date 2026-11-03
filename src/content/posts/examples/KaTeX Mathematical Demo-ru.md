@@ -3,6 +3,7 @@ title: KaTeX Математическая демонстрация
 published: 2025-04-01
 lang: ru
 abbrlink: katex-mathematical-demo
+draft: true
 ---
 
 KaTeX — это кросс-браузерная JavaScript-библиотека для отображения математических формул в веб-браузерах. Она делает акцент на скорости и удобстве использования, изначально разработана Khan Academy и стала одним из пяти самых популярных проектов на GitHub.
@@ -149,3 +150,4 @@ $$
 $$
 
 *Примеры взяты из [KaTeX Live Demo](https://sixthform.info/katex/examples/demo.html)*
+

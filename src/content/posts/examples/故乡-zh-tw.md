@@ -6,6 +6,7 @@ tags:
   - 近代文學
 lang: zh-tw
 abbrlink: my-native-heath
+draft: true
 ---
 
 ![_Here's the description of the picture](https://image.radishzz.cc/picsmaller/03.webp)
@@ -187,3 +188,4 @@ abbrlink: my-native-heath
 我在朦朧中，眼前展開一片海邊碧綠的沙地來，上面深藍的天空中掛着一輪金黃的圓月。我想：希望本是無所謂有，無所謂無的。這正如地上的路，其實地上本沒有路；走的人多了，也便成了路。
 
 一九二一年一月。
+

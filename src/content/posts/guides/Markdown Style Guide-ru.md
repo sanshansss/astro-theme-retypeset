@@ -8,6 +8,7 @@ pin: 98
 toc: false
 lang: ru
 abbrlink: markdown-style-guide
+draft: true
 ---
 
 Вот несколько примеров базового синтаксиса Markdown и их стилистических эффектов в теме Retypeset.
@@ -269,3 +270,4 @@ X<sup>n</sup> + Y<sup>n</sup> = Z<sup>n</sup>
 Используйте три дефиса `---` или тег `<hr>` для создания горизонтальной линии, как показано ниже.
 
 ---
+

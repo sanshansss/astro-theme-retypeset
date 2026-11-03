@@ -3,6 +3,7 @@ title: KaTeX Demostración Matemática
 published: 2025-04-01
 lang: es
 abbrlink: katex-mathematical-demo
+draft: true
 ---
 
 KaTeX es una biblioteca JavaScript multiplataforma que permite visualizar notación matemática en navegadores web. Destaca por su velocidad y facilidad de uso, fue desarrollada inicialmente por Khan Academy y se convirtió en uno de los cinco proyectos más populares de GitHub.
@@ -149,3 +150,4 @@ $$
 $$
 
 *Ejemplos tomados de [KaTeX Live Demo](https://sixthform.info/katex/examples/demo.html)*
+

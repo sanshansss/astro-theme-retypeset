@@ -6,6 +6,7 @@ tags:
 toc: false
 lang: ja
 abbrlink: theme-color-schemes
+draft: true
 ---
 
 Retypeset は、[OKLCH](https://oklch.com/) カラースペースに基づいてテーマカラーを定義し、デフォルトでは印刷スタイルを模した白黒グレーの配色を採用しています。
@@ -91,3 +92,4 @@ dark: {
   highlight: 'oklch(0.93 0.195089 103.2532 / 0.2)',
 },
 ```
+

@@ -6,6 +6,7 @@ tags:
   - きんだいぶんがく
 lang: ja
 abbrlink: rashomon
+draft: true
 ---
 
 ![_Here's the description of the picture](https://image.radishzz.cc/picsmaller/06.webp)
@@ -78,3 +79,4 @@ abbrlink: rashomon
 暫、死んだやうに倒れてゐた老婆が、屍骸の中から、その裸の體を起したのは、それから間もなくの事である。老婆は、つぶやくやうな、うめくやうな聲を立てながら、まだ燃えてゐる火の光をたよりに、梯子の口まで、這つて行つた。さうして、そこから、短い白髮を倒にして、門の下を覗きこんだ。外には、唯、黑洞々たる夜があるばかりである。
 
 下人は、既に、雨を冐して、京都の町へ强盜を働きに急いでゐた。
+

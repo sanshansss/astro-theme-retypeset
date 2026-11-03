@@ -6,6 +6,7 @@ tags:
   - きんだいぶんがく
 lang: ja
 abbrlink: my-native-heath
+draft: true
 ---
 
 ![_Here's the description of the picture](https://image.radishzz.cc/picsmaller/03.webp)
@@ -131,3 +132,4 @@ abbrlink: my-native-heath
 希望は本来有というものでもなく、無というものでもない。これこそ地上の道のように、初めから道があるのではないが、歩く人が多くなると初めて道が出来る。
 
 一九二一年一月。
+

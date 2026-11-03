@@ -6,6 +6,7 @@ tags:
 toc: false
 lang: ru
 abbrlink: markdown-extended-features
+draft: true
 ---
 
 Здесь представлены некоторые расширенные функции Markdown, поддерживаемые темой Retypeset, включая примеры синтаксиса и их стилистические эффекты.
@@ -227,3 +228,4 @@ graph TD;
 ### Результат
 
 ::codepen{url="https://codepen.io/jh3y/pen/NWdNMBJ"}
+

@@ -8,6 +8,7 @@ tags:
 pin: 99
 lang: ru
 abbrlink: theme-guide
+draft: true
 ---
 
 Retypeset — это статическая тема блога, основанная на фреймворке [Astro](https://astro.build/). Данное руководство знакомит с тем, как изменять настройки темы и создавать новые статьи, помогая вам быстро настроить личный блог.
@@ -409,3 +410,4 @@ pnpm format-posts
 ✅ src/content/posts/guides/Theme Guide-zh.md
 ✨ Formatted 3 files successfully
 ```
+

@@ -6,6 +6,7 @@ tags:
   - 近代文學
 lang: zh-tw
 abbrlink: rashomon
+draft: true
 ---
 
 ![_Here's the description of the picture](https://image.radishzz.cc/picsmaller/06.webp)
@@ -83,3 +84,4 @@ abbrlink: rashomon
 暫時氣絕似的老嫗，從死屍間掙起伊裸露的身子來，是相去不久的事。伊吐出嘮叨似的呻吟似的聲音，借了還在燃燒的火光，爬到樓梯口邊去。而且從這裡倒掛了短的白髮，窺向門下面。那外邊，只有黑洞洞的昏夜。
 
 家將的蹤跡，並沒有知道的人。
+

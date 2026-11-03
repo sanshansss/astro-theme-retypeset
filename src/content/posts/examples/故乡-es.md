@@ -6,6 +6,7 @@ tags:
   - Literatura Moderna
 lang: es
 abbrlink: my-native-heath
+draft: true
 ---
 
 ![_Here's the description of the picture](https://image.radishzz.cc/picsmaller/03.webp)
@@ -167,3 +168,4 @@ Mientras yacía en mi rincón, escuchando el sonido del agua golpeando el bote, 
 Al darme cuenta de lo que hacía, de repente me asusté. Me reí para mis adentros cuando Yun-t'u me pidió el incensario y los candelabros, y lo compadecí porque no podía olvidar ni un instante sus supersticiones. Pero ¿qué era esta supuesta esperanza mía sino también un ídolo hecho con nuestras propias manos? La única diferencia entre nosotros era que sus deseos y esperanzas se centraban en cosas más inmediatas, mientras que los míos se centraban en lo más remoto.
 
 En la oscuridad, el verde campo de sandías reapareció ante mis ojos, y sobre él, una luna dorada colgaba en un cielo azul intenso. Quizás, pensé, la esperanza no es absoluta, no es algo de lo que podamos decir si existe o no, sino algo muy parecido a los caminos que los viajeros recorren la faz de la tierra donde antes no los había.
+

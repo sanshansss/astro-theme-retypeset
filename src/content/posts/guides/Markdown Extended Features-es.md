@@ -6,6 +6,7 @@ tags:
 toc: false
 lang: es
 abbrlink: markdown-extended-features
+draft: true
 ---
 
 Aquí presentamos algunas características extendidas de Markdown compatibles con Retypeset, incluyendo ejemplos de sintaxis y sus efectos estilísticos.
@@ -227,3 +228,4 @@ Para incrustar demostraciones de CodePen, utilice la directiva hoja `::codepen{u
 ### Resultado
 
 ::codepen{url="https://codepen.io/jh3y/pen/NWdNMBJ"}
+

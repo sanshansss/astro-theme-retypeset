@@ -8,6 +8,7 @@ pin: 98
 toc: false
 lang: es
 abbrlink: markdown-style-guide
+draft: true
 ---
 
 Aquí hay algunos ejemplos básicos de sintaxis Markdown y sus efectos estilísticos en el tema Retypeset.
@@ -269,3 +270,4 @@ La mayoría de las <mark>salamandras</mark> son nocturnas y cazan insectos, gusa
 Use tres guiones `---` o la etiqueta `<hr>` para crear una línea horizontal como se muestra a continuación.
 
 ---
+

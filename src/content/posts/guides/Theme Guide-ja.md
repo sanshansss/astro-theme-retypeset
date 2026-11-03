@@ -8,6 +8,7 @@ tags:
 pin: 99
 lang: ja
 abbrlink: theme-guide
+draft: true
 ---
 
 Retypeset は、日本語では「再組版」と呼ばれる、[Astro](https://astro.build/) フレームワークをベースにした静的ブログテーマです。本ガイドではテーマの設定変更方法と新しい記事の作成方法を紹介し、個人ブログを素早く構築できるよう支援します。
@@ -409,3 +410,4 @@ pnpm format-posts
 ✅ src/content/posts/guides/Theme Guide-zh.md
 ✨ Formatted 3 files successfully
 ```
+

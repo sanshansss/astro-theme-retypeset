@@ -6,6 +6,7 @@ tags:
 toc: false
 lang: ru
 abbrlink: theme-color-schemes
+draft: true
 ---
 
 Retypeset определяет цветовые схемы темы на основе цветового пространства [OKLCH](https://oklch.com/), с предустановленной схемой черного, белого и серого цветов, имитирующей печатный стиль.
@@ -91,3 +92,4 @@ dark: {
   highlight: 'oklch(0.93 0.195089 103.2532 / 0.2)',
 },
 ```
+

@@ -6,6 +6,7 @@ tags:
 toc: false
 lang: zh
 abbrlink: theme-color-schemes
+draft: true
 ---
 
 Retypeset 基于 [OKLCH](https://oklch.com/) 颜色空间来定义主题配色，默认为模拟印刷风格的黑白灰配色。
@@ -91,3 +92,4 @@ dark: {
   highlight: 'oklch(0.93 0.195089 103.2532 / 0.2)',
 },
 ```
+

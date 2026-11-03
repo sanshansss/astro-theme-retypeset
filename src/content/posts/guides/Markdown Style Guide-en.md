@@ -8,6 +8,7 @@ pin: 98
 toc: false
 lang: en
 abbrlink: markdown-style-guide
+draft: true
 ---
 
 Here are some basic Markdown syntax examples and their stylistic effects in Retypeset.
@@ -269,3 +270,4 @@ Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and ot
 Use three hyphens `---` or the `<hr>` tag to create a horizontal rule as shown below.
 
 ---
+

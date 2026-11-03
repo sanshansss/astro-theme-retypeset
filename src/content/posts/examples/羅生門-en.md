@@ -6,6 +6,7 @@ tags:
   - Modern Literature
 lang: en
 abbrlink: rashomon
+draft: true
 ---
 
 ![_Here's the description of the picture](https://image.radishzz.cc/picsmaller/06.webp)
@@ -83,3 +84,4 @@ The servant quickly stripped off the old woman's clothes, and kicked the old wom
 It was not long ago that the old woman, who seemed to be temporarily dead, struggled to raise her naked body from among the corpses. She uttered a nagging, groaning sound and, using the light of the still burning fire, crawled to the stairs. And from here hung short white hair, peeking under the door. Outside, there was only pitch-black night.
 
 No one knew the whereabouts of the family general.
+

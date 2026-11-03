@@ -6,6 +6,7 @@ tags:
   - Modern Literature
 lang: en
 abbrlink: my-native-heath
+draft: true
 ---
 
 ![_Here's the description of the picture](https://image.radishzz.cc/picsmaller/03.webp)
@@ -167,3 +168,4 @@ As I lay in my corner and listened to the sound of water lapping against the boa
 As I realized what I was doing, I suddenly became afraid. I had laughed to myself when Yun-t'u asked for the incense burner and candlesticks and had pitied him because he could not for a moment forget his superstitions. But what was this so-called hope of mine if not also an idol fashioned with our own hands? The only difference between us was that his wishes and hopes were concerned with more immediate things while mine were concerned with the more remote.
 
 In the darkness the green watermelon patch again appeared before my eyes and above it a golden moon hung in a deep blue sky. Perhaps, I thought to myself, hope is not absolute, not something of which we can say that it does or does not exist, but something very much like the roads that travelers make across the face of the earth where there were none before.
+

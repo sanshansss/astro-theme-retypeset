@@ -6,6 +6,7 @@ tags:
   - Literatura Moderna
 lang: es
 abbrlink: tolerance-freedom
+draft: true
 ---
 
 Hace diecisiete o dieciocho años conocí por última vez al señor George Lincoln Burr, un gran historiador de mi alma mater, la Universidad de Cornell. Hablamos del historiador británico Lord Acton, quien planeó escribir una Historia de la Libertad a lo largo de su vida, pero murió antes de poder terminarla. El señor Bull habló mucho ese día y hay una frase que nunca he olvidado. Dijo: «Cuanto mayor me hago, más siento que la tolerancia es más importante que la libertad».
@@ -65,3 +66,4 @@ Una vez dije que debía pagar la tolerancia de la sociedad hacia mí con toleran
 48, 3, 12 mañana
 
 (Publicado originalmente en Taipei's Free China, vol. 20, núm. 6, 16 de marzo de 1959)
+

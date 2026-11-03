@@ -8,6 +8,7 @@ pin: 98
 toc: false
 lang: ja
 abbrlink: markdown-style-guide
+draft: true
 ---
 
 以下は基本的な Markdown 構文の例と、Retypeset テーマでのスタイル効果です。
@@ -269,3 +270,4 @@ X<sup>n</sup> + Y<sup>n</sup> = Z<sup>n</sup>
 3 つのハイフン `---` または `<hr>` タグを使用して、以下のような水平線を作成できます。
 
 ---
+
