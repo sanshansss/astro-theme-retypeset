@@ -1,4 +1,6 @@
 ---
+import { defaultLocale } from '@/config'
+import { getTagPath } from '@/i18n/path'
 import { ui } from '@/i18n/ui'
 import { getPageInfo } from '@/utils/page'
 
@@ -8,6 +10,12 @@ const currentUI = ui[currentLang as keyof typeof ui] ?? {}
 const isPostActive = isHome || isPost
 const isTagActive = isTag
 const isAboutActive = isAbout
+
+// Paper notes section: a tag that only has content in Chinese,
+// so its href is intentionally not localized (no language prefix)
+const PAPER_NOTES_TAG = '论文笔记'
+const paperNotesHref = getTagPath(PAPER_NOTES_TAG, defaultLocale)
+const isPaperNotesActive = decodeURIComponent(Astro.url.pathname) === paperNotesHref
 
 function getNavItemClass(isActive: boolean) {
   return isActive
@@ -25,6 +33,13 @@ const navItems = [
     href: '/tags/',
     label: currentUI.tags,
     className: getNavItemClass(isTagActive),
+  },
+  {
+    href: paperNotesHref,
+    label: PAPER_NOTES_TAG,
+    className: getNavItemClass(isPaperNotesActive),
+    // Already a complete path (includes base), must not be localized again
+    raw: true,
   },
   {
     href: '/about/',
@@ -46,7 +61,7 @@ const navItems = [
     {navItems.map(item => (
       <li>
         <a
-          href={getLocalizedPath(item.href)}
+          href={item.raw ? item.href : getLocalizedPath(item.href)}
           class={item.className}
         >
           {item.label}
